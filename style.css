@@ -1,0 +1,78 @@
+.container {
+    width: 640px;
+    height: 380px;
+    display: flex;
+    font-family: Roboto, sans-serif;
+}
+.photo-column {
+    width: 260px;
+    height: 379px;
+    background-color: grey;
+    border-radius: 10px 0 0 10px;
+}
+.info-column {
+    width: 380px;
+    height: 383px;
+    border-radius: 0 10px 10px 0;
+}
+.contact-container {
+    width: 360px;
+    height: 189px;
+    background-color: #2B3944;
+    border-left: solid 1px white;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-top: solid 1px white;
+    border-radius: 0 0 10px 0;
+}
+.name-container {
+    width: 380px;
+    height: 190px;
+    background-color: #192028;
+    border-radius: 0 10px 0 0;
+    border-left: solid 1px white;
+    display: flex;
+    align-items: center;
+}
+.name {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.surname {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.position {
+    color: #6487A1;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.contact-line-wrapper {
+    padding-left: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.phone-line {
+    margin-bottom: 0;
+}
+
+.contact-line {
+    border-bottom: 1px solid rgb(255, 255, 255, .4);
+    width: 325px;
+}
+
+.name-wrapper {
+    margin-left: 25px;
+}
+
+.contact-line {
+    margin: 0 0 0 12px;
+}
